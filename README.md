@@ -14,5 +14,5 @@ This set of satisfaction 75 code uses the old driver and fixes that issue.
 3.) Build the keyboard firmware as normal.  
  `qmk compile -kb cannonkeys/satisfaction75 -km via`  
 
-For convenience, a built .bin file is included in this repo.
+For convenience, a built .bin file is included in this repo. (HERE)[https://github.com/fearherbs1/sat-75-before-oled-driver-change/releases/tag/release]
 
