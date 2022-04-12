@@ -6,11 +6,13 @@ After flashing the current release of QMK I noticed the oled look and behavior w
 This set of satisfaction 75 code uses the old driver and fixes that issue.  
 
 # Use
-1.) Clone the QMK repository and revert to the commit right before the change:
+1.) Clone the QMK repository and revert to the commit right before the change:  
 `git reset --hard 7b753f2`  
 
 2.) Download the files from this repo and replace the `qmk_firmware\keyboards\cannonkeys\satisfaction75` folder with these files.  
 
 3.) Build the keyboard firmware as normal.  
+ `qmk compile -kb cannonkeys/satisfaction75 -km via`  
 
 For convenience, a built .bin file is included in this repo.
+
